@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome to GetPassword</title>
+    <style>
+        ::selection {
+            background:yellow;
+            color:rgb(66, 133, 244);
+        }
+        ::-moz-selection {
+            background:yellow;
+            color:rgb(66, 133, 244);
+        }
+        #wrapper {
+            text-align: center;
+        }
+        #inner {
+            border:rgb(66, 133, 244) solid 15px;
+            color:rgb(100, 100, 100);
+            width:620px;
+            font-family: "arial", serif;
+            display:inline-block;
+            font-size: 15px;
+            padding: 20px 0px 0px;
+        }
+        #header {
+            margin: 15px;
+        }
+        .uuid{
+            font-size: 18px;
+            padding:15px;
+            cursor:pointer;
+            background-color:rgb(66, 133, 244);
+            color:rgb(238, 238, 238);
+        }
+        .uuid:hover{
+            font-size: 18px;
+            padding:15px;
+            cursor:pointer;
+            background-color:rgb(238, 238, 238);
+            color:rgb(66, 133, 244);
+        }
+        #footer{
+            margin: 15px 0px 0px;
+            padding: 15px 20px 0;
+            font-size: 12px;
+            border-color: rgb(66, 133, 244);
+            background-color: rgb(66, 133, 244);
+            color:rgb(238, 238, 238);
+        }
+        h2 {
+            color:rgb(66, 133, 244);
+        }
+        hr {
+            border: none;
+            height: 1px;
+            color:rgb(66, 133, 244);
+            background-color:rgb(66, 133, 244);
+        }
+    </style>
+</head>
+<body>
+<div id="wrapper">
+    <div id="inner">
+        <div id="header">
+            <h2>Hi {{user}},</h2>
+            <br>
+            I'm so glad you decided to keep your secrets classified with <b>GetPassword</b>.
+            <br><br><hr><br>
+            <img src="https://i.imgur.com/7DYXipb.png"/><br><br>
+            <b>GetPassword</b> keep your various url's password and defined secrets <b>AES 256 bit</b> encrypted to make you free from remembering your various website passwords.
+            <br><br><hr><br>
+            Below is your generated secret UUID to verify your application and also to recover your password, So keep it separate and secure.
+            <br><br>
+            <div class="uuid">
+                <span><b>{{uuid}}</b></span>
+            </div>
+            <br>
+            If you are using <b>GetPassword</b> application, <b><i>please don't delete this message</i></b>, otherwise if you forgot the password, it will impossible to recover it, thanks.
+            <br>
+        </div>
+        <div id="footer">
+            &copy; 2018 <b>Whodesire Solutions Maintenance and Domain Services</b><br>
+            This email was sent to you because you have accepted GetPassword application.
+        </div>
+    </div>
+</div>
+</body>
+</html>

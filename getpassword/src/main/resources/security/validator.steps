@@ -1,0 +1,8 @@
+#Don't interrupt any property or value, otherwise it will harm the application
+validatorResource=Z2V0cGFzc3dvcmRAd2hvZGVzaXJlLmNvbQ==
+validatorSecretKey=VGdIT3FSdkZrY2JTMTJJTg==
+validatorBackup=dGVhbXdob2Rlc2lyZUBnbWFpbC5jb20=
+ResourceName=R2V0UGFzc3dvcmQgU3VwcG9ydA==
+BackupName=VGVhbVdob2Rlc2lyZSBHbWFpbA==
+prioritySecret=
+secondarySecret=

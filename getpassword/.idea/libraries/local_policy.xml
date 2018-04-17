@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="local_policy">
+    <CLASSES />
+    <JAVADOC />
+    <NATIVE>
+      <root url="jar://$PROJECT_DIR$/src/main/resources/security/local_policy.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/main/resources/security/US_export_policy.jar!/" />
+    </NATIVE>
+    <SOURCES />
+  </library>
+</component>
